@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  overflow: hidden;
+  border-radius: 7px;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  min-height: 520px;
+  width: 950px;
+}
+
+section {
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 45px;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  line-height: 170%;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  flex-grow: 1;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  height: 45px;
+  width: 120px;
+  background-color: hsl(0, 0%, 95%);
+  border: solid 1px transparent;
+  border-radius: 30px;
+}
+
+button:hover {
+  border-color: hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+  background: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.button-1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.button-2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.button-3 {
+  color: hsl(179, 100%, 13%);
+}
